@@ -351,3 +351,4 @@
  * Task [AdaptDeprecatedHadoopVersionsMigrationTask] : Nothing to do
  * Task [AddDefaultVersionValueForElasticsearchLookupInput] : Applied successfully
  * Task [AutoUpdateRelationsMigrationTask] : Applied successfully
+ ---=== End of migration ===---
