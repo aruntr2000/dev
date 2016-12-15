@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_iBAYkcMTEeaVfMNVbQ99Lw" label="netSpendDemo" description="" language="java" technicalLabel="NETSPENDDEMO" creationDate="2016-12-15T16:04:33.000-0600" author="_iBAYksMTEeaVfMNVbQ99Lw" productVersion="Talend Data Fabric-6.2.1.20161103_1500_patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:aruntr2000/dev.git&quot;,&quot;login&quot;:&quot;&quot;,&quot;passwd&quot;:&quot;KyTwLwkBNEJwvJVK7K7cWQ==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
+  <TalendProperties:Project xmi:id="_iBAYkcMTEeaVfMNVbQ99Lw" label="netSpendDemo" description="" language="java" technicalLabel="NETSPENDDEMO" creationDate="2016-12-15T16:04:33.000-0600" author="_iBAYksMTEeaVfMNVbQ99Lw" referencedProjects="_XigHcMMVEeaxf-_crY-zEg" productVersion="Talend Data Fabric-6.2.1.20161103_1500_patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;git@github.com:aruntr2000/dev.git&quot;,&quot;login&quot;:&quot;&quot;,&quot;passwd&quot;:&quot;KyTwLwkBNEJwvJVK7K7cWQ==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM" itemsRelationVersion="1.3">
     <technicalStatus xmi:id="_ihDKkMMTEeaVfMNVbQ99Lw" label="development" code="DEV"/>
     <technicalStatus xmi:id="_ihDKkcMTEeaVfMNVbQ99Lw" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_ihDKksMTEeaVfMNVbQ99Lw" label="production" code="PROD"/>
@@ -359,4 +359,7 @@
     <migrationTask xmi:id="_iuB3jMMTEeaVfMNVbQ99Lw" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_iBAYksMTEeaVfMNVbQ99Lw" login="admin@company.com" firstName="admin" lastName="admin" type="MDM" additionnalData="{}"/>
+  <TalendProperties:ProjectReference xmi:id="_XigHcMMVEeaxf-_crY-zEg" project="_iBAYkcMTEeaVfMNVbQ99Lw" branch="master" referencedBranch="master">
+    <referencedProject href="../NETSPENDREF/talend.project#projectReference"/>
+  </TalendProperties:ProjectReference>
 </xmi:XMI>
